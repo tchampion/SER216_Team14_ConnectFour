@@ -608,7 +608,7 @@ public class GamePanel extends javax.swing.JPanel implements ScoreChart.Listener
 	void initNewGame(){
 		turnNum = 0;
 		columnNum = 0;
-		whoPlayed = 1;
+		//whoPlayed = 1;
 		falling = false;
 		pieces = new GUIPiece[43];
 		pieces[turnNum] = new GUIPiece(turnNum);
